@@ -1,13 +1,13 @@
-module "sandbox" {
+module "network" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "<ACCOUNT EMAIL>"
-    AccountName               = "sandbox-aft"
-    ManagedOrganizationalUnit = "Learn AFT"
-    SSOUserEmail              = "<SSO EMAIL>"
-    SSOUserFirstName          = "Sandbox"
-    SSOUserLastName           = "AFT"
+    AccountEmail              = "netseracc.in@capgemini.com"
+    AccountName               = "network-service"
+    ManagedOrganizationalUnit = "Infra"
+    SSOUserEmail              = "netseracc.in@capgemini.com"
+    SSOUserFirstName          = "Network"
+    SSOUserLastName           = "Service"
   }
 
   account_tags = {
@@ -23,5 +23,5 @@ module "sandbox" {
     group = "non-prod"
   }
 
-  account_customizations_name = "sandbox"
+  account_customizations_name = "network"
 }
