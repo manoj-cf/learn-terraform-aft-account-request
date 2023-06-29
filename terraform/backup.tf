@@ -6,7 +6,7 @@ module "backup" {
     AccountName               = "backup-service"
     ManagedOrganizationalUnit = "Infra"
     SSOUserEmail              = "cfbackupservic.in@capgemini.com"
-    SSOUserFirstName          = "BAckup"
+    SSOUserFirstName          = "Backup"
     SSOUserLastName           = "Service"
   }
 
