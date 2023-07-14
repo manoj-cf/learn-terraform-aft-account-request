@@ -4,9 +4,9 @@ module "security" {
   control_tower_parameters = {
     AccountEmail              = "securityservice.in@capgemini.com"
     AccountName               = "security-service"
-    ManagedOrganizationalUnit = "Security OU"
+    ManagedOrganizationalUnit = "Security"
     SSOUserEmail              = "securityservice.in@capgemini.com"
-    SSOUserFirstName          = "SecurityOU"
+    SSOUserFirstName          = "Security"
     SSOUserLastName           = "Service"
   }
 
