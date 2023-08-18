@@ -3,7 +3,7 @@ module "log" {
 
   control_tower_parameters = {
     AccountEmail              = "cflogservice2.in@capgemini.com"
-    AccountName               = "log-service"
+    AccountName               = "log-service-acc"
     ManagedOrganizationalUnit = "Infra"
     SSOUserEmail              = "cflogservice2.in@capgemini.com"
     SSOUserFirstName          = "Log"
